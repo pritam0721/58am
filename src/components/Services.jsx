@@ -15,7 +15,7 @@ const Services = ({ brandBgGreen, darkCard }) => (
           { icon: Briefcase, title: "Back-Office Services", desc: "Data entry, payroll, and administrative processing." },
           { icon: Zap, title: "Virtual Assistance", desc: "Dedicated resources for executive support and task management." }
         ].map((service, i) => (
-          <div key={i} className={`p-8 rounded-3xl border border-slate-200 bg-white transition-all hover:shadow-xl hover:-translate-y-2 group ${darkCard}`}>
+          <div key={i} className={`p-8 rounded-3xl border transition-all hover:shadow-xl hover:-translate-y-2 group ${darkCard}`}>
             <div className={`${brandBgGreen} w-14 h-14 rounded-2xl flex items-center justify-center text-black mb-6 group-hover:rotate-6 transition-transform`}>
               <service.icon size={28} />
             </div>
