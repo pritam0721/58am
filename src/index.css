@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Google Font */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap'); */
+
+body {
+  font-family: 'Inter', sans-serif;
+}
