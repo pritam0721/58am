@@ -6,7 +6,7 @@ const Hero = ({ brandGreen, brandBgGreen }) => {
     <section className="pt-40 pb-20 px-4">
       <div className="max-w-7xl mx-auto text-center">
         {/*this not working in light mode  */}
-        <div className="inline-flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-900 px-4 py-2 rounded-full mb-8 border dark:border-zinc-800">
+        <div className="inline-flex items-center space-x-2 bg-zinc-100 dark:bg-zinc-900 px-4 py-2 rounded-full mb-8 border border-slate-200 dark:border-zinc-800">
           <span className={`w-2 h-2 rounded-full ${brandBgGreen} animate-pulse`}></span>
           <span className="text-sm font-medium">Available for Offshore Direct Access</span>
         </div>
@@ -25,7 +25,7 @@ const Hero = ({ brandGreen, brandBgGreen }) => {
           </button>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-24 border-t dark:border-zinc-800 pt-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-24 border-t border-slate-200 dark:border-zinc-800 pt-12">
           <div>
             <div className="text-4xl font-bold mb-1 tracking-tighter">70%</div>
             <div className="text-zinc-500 text-sm uppercase tracking-wider">Cost Savings</div>
