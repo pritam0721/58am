@@ -13,9 +13,9 @@ const Footer = ({ darkMode, brandGreen }) => (
           58AM Marketing St. is a premier international BPO providing direct access to top-tier talent in India.
         </p>
         <div className="flex space-x-4">
-          <div className={`p-2 rounded-lg border dark:border-zinc-800 cursor-pointer transition-colors`}><Globe size={18} /></div>
-          <div className={`p-2 rounded-lg border dark:border-zinc-800 cursor-pointer transition-colors`}><Mail size={18} /></div>
-          <div className={`p-2 rounded-lg border dark:border-zinc-800 cursor-pointer transition-colors`}><PhoneCall size={18} /></div>
+          <div className={`p-2 rounded-lg border border-slate-300 dark:border-zinc-800 cursor-pointer transition-colors hover:bg-slate-100 dark:hover:bg-zinc-900`}><Globe size={18} /></div>
+          <div className={`p-2 rounded-lg border border-slate-300 dark:border-zinc-800 cursor-pointer transition-colors hover:bg-slate-100 dark:hover:bg-zinc-900`}><Mail size={18} /></div>
+          <div className={`p-2 rounded-lg border border-slate-300 dark:border-zinc-800 cursor-pointer transition-colors hover:bg-slate-100 dark:hover:bg-zinc-900`}><PhoneCall size={18} /></div>
         </div>
       </div>
 
@@ -57,12 +57,12 @@ const Footer = ({ darkMode, brandGreen }) => (
         </div>
       </div>
     </div>
-    <div className="max-w-7xl mx-auto px-4 pt-10 border-t border-zinc-800 flex flex-col md:row justify-between items-center text-xs text-zinc-500 space-y-4 md:space-y-0">
+    <div className="max-w-7xl mx-auto px-4 pt-10 border-t border-slate-200 dark:border-zinc-800 flex flex-col md:row justify-between items-center text-xs text-zinc-500 space-y-4 md:space-y-0">
       <p>© 2026 58AM Marketing Street. All rights reserved.</p>
       <div className="flex space-x-6">
-        <a href="#" className="hover:text-white">Privacy Policy</a>
-        <a href="#" className="hover:text-white">Terms of Use</a>
-        <a href="#" className="hover:text-white">Sitemap</a>
+        <a href="#" className="hover:text-zinc-900 dark:hover:text-white">Privacy Policy</a>
+        <a href="#" className="hover:text-zinc-900 dark:hover:text-white">Terms of Use</a>
+        <a href="#" className="hover:text-zinc-900 dark:hover:text-white">Sitemap</a>
       </div>
     </div>
   </footer>
