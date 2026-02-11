@@ -26,7 +26,8 @@ const App = () => {
   return (
     <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'bg-black text-white' : 'bg-slate-50 text-zinc-900'}`}>
       <Nav darkMode={darkMode} toggleTheme={toggleTheme} isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} brandBgGreen={brandBgGreen} />
-      <Hero brandGreen={brandGreen} brandBgGreen={brandBgGreen} />
+      <Hero brandGreen={brandGreen} brandBgGreen={brandBgGreen} darkMode=
+      {darkMode} />
       <WhyChoose brandGreen={brandGreen} darkMode={darkMode} />
       <Services brandBgGreen={brandBgGreen} darkCard={darkCard} />
       <SecurityFeatures darkMode={darkMode} />
